@@ -1,4 +1,5 @@
 import React from "react";
 import {render} from "react-dom";
-import router from "./router"
-render(router,document.querySelector("#root"));
+import App from "./App";
+
+render(<App/>,document.querySelector("#root"));

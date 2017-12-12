@@ -1,9 +1,8 @@
 import React,{Component} from "react";
 import {getCarousel,getRecommend} from "../../api/index"
-import "./home.css"
+import "./index.css"
 import Swiper from "./Swiper/Swiper";
 import Recommend from "./Recommend/Recommend";
-// import Countdown from "./Countdown/Countdown";
 import Search from "../Search/index";
 import {
     Route,
