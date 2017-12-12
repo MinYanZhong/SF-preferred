@@ -69,8 +69,8 @@ app.get("/public/recommend",(req,res)=>{
     retrievData(req,res,res.data,number)
 });
 
-// 详情页 detailspage   该商品details 类似similar  评论comment
-app.get("/public/detailspage",(req,res)=>{
+// 详情页 details   该商品details 类似similar  评论comment
+app.get("/public/details",(req,res)=>{
     let id=req.query.id;
     if(id){
            let details=res.data.find(item=>item.recommendID===id);
